@@ -1,0 +1,454 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .searchOption__btn {
+        gap: 10px;
+        width: max-content;
+    }
+
+    .hero-img {
+        max-width: 439px;
+        object-fit: cover;
+    }
+
+    .success__massage .close__btn {
+        right: 10px;
+    }
+
+    .HubSpot__right {
+        padding-left: 10px;
+    }
+
+    .full__screen {
+        min-height: auto;
+    }
+
+    .sec__padding {
+        padding: 80px 0;
+    }
+}
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header__btn {
+        gap: 10px;
+    }
+
+    .header-area {
+        padding: 14px 0;
+    }
+
+    .hero-img {
+        max-width: 280px;
+        object-fit: cover;
+    }
+
+    .searchOption__blk {
+        max-width: 97%;
+    }
+
+
+
+    .hero-area {
+        padding: 60px 0 170px;
+    }
+
+    .hero-area.v2 {
+        padding-bottom: 130px;
+    }
+
+    .FRJob__wrp {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .RelatedSearches__blk {
+        margin: unset;
+    }
+
+    .FRJob__wrp>div {
+        width: 49%;
+        margin: unset;
+        max-width: 100%;
+    }
+
+    .footer__link {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer__link ul {
+        justify-content: center;
+    }
+
+    .success__massage p {
+        padding: 0 50px;
+    }
+
+    .success__massage .close__btn {
+        top: 7px;
+        right: 14px;
+    }
+
+    .Job-info__title {
+        margin-top: 30px;
+    }
+
+    .about__frame {
+        margin-top: 40px;
+    }
+
+    .solutions__title h3 {
+        font-size: 28px;
+    }
+
+    .blog-area .container>.row {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog__img {
+        margin: auto;
+        text-align: center;
+    }
+
+    .blog__content {
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .HubSpo__content h4 {
+        font-size: 20px;
+    }
+
+    .success__massage {
+        width: 97%;
+    }
+
+    .full__screen {
+        min-height: auto;
+    }
+
+    .sec__padding {
+        padding: 50px 0 60px;
+    }
+
+}
+
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+
+    :root {
+
+
+        --f18: 16px;
+        --f20: 18px;
+        --f22: 20px;
+        --f24: 22px;
+        --f28: 24px;
+        --f30: 26px;
+        --f32: 28px;
+        --f36: 32px;
+        --f40: 40px;
+        --f48: 48px;
+    }
+
+    .header-area {
+        height: 63px;
+        padding-top: 5px;
+    }
+
+    .logo-area {
+        width: 200px;
+    }
+
+    .header-area .container {
+        /* display: flex; */
+        align-items: center;
+        /* height: 100%; */
+        /* width: 100%; */
+    }
+
+
+    .searchOption__blk {
+        position: unset;
+        width: 100%;
+    }
+
+
+    .searchOption__blk .row {
+        gap: 14px 0;
+    }
+
+    img.hero-img {
+        display: none;
+    }
+
+    .hero-area {
+        padding: 40px 0 40px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .jobExplore-area {
+        padding: 0 0 50px;
+    }
+
+    .jobExplore__blk {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .jobExploreBlk__text {
+        position: unset;
+    }
+
+    .jobExploreBlk__text>span {
+        top: 20px;
+        right: 20px;
+    }
+
+    .findremoteJob__blk,
+    .RelatedSearches__blk {
+        margin: auto;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .findJob__wrp {
+        flex-direction: column-reverse;
+        padding: 20px;
+        gap: 20px 0;
+        margin: 50px 0;
+    }
+
+    .footer__content ul {
+        flex-direction: column;
+        gap: 8px 0;
+        margin: 20px 0 10px;
+    }
+
+    .footer__link {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer__link ul {
+        justify-content: center;
+    }
+
+    .footer__content {
+        text-align: center;
+    }
+
+    .hero-content h3 {
+        font-size: 24px;
+    }
+
+    .findJob__blk h3 {
+        font-size: 20px;
+    }
+
+    .Job-info__title h3 {
+        font-size: 22px;
+        max-width: 300px;
+        margin-inline: auto;
+    }
+
+    .Job-info__right {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .JobApply__top {
+        text-align: center;
+    }
+
+    .JobApply__top ul {
+        justify-content: center;
+        margin: 15px 0 0;
+    }
+
+    .JobApply__topBtn {
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .file-upload__box {
+        height: 80px;
+    }
+
+    .multi__select .select2-selection__rendered {
+        flex-wrap: wrap;
+    }
+
+    .select2-container .select2-selection--multiple {
+        height: auto !important;
+        min-height: 46px;
+    }
+
+    .success__massage p {
+        padding: 0 20px;
+    }
+
+    .success__massage .close__btn {
+        top: 7px;
+        right: 14px;
+    }
+
+    .Job-info__title {
+        margin-top: 30px;
+    }
+
+    .success__massage {
+        position: relative;
+    }
+
+    .PostJob-area .success__massage {
+        top: -35px;
+    }
+
+    h3.title {
+        font-size: 22px;
+    }
+
+    .about__frame {
+        margin-top: 30px;
+    }
+
+    .blog-area .container>.row {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog-area {
+        padding: 50px 0;
+    }
+
+    .blog__img {
+        margin: auto;
+        text-align: center;
+    }
+
+    .blog__content {
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .blog__content h4 {
+        font-size: 20px;
+    }
+
+    .blog__img h4 {
+        font-size: 20px;
+    }
+
+    .blog__wrp .list-option {
+        justify-content: center;
+    }
+
+    .HubSpot-area .row {
+        flex-direction: column-reverse;
+    }
+
+    .user__blk {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .des__ux {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .tag__blk ul {
+        flex-wrap: wrap;
+        flex-direction: row !important;
+    }
+
+    .HubSpot__right {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .HubSpo__content h4 {
+        font-size: 18px;
+    }
+
+    .HubSpot-area {
+        padding-bottom: 50px;
+    }
+
+    .PostJob-area {
+        padding: 50px 0;
+    }
+
+    .avatar-upload {
+        margin: 20px auto;
+    }
+
+    .full__screen {
+        min-height: auto;
+    }
+
+    .sec__padding {
+        padding: 40px 0 60px;
+    }
+
+    a.home__link {
+        padding: 16px 0;
+        width: max-content;
+        font-size: 14px;
+    }
+
+    .application__blk {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .application__content h6 {
+        margin-bottom: 4px;
+    }
+
+    .src__blk,.Country__select {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #0002;
+    }
+    
+    .Country__select {
+        padding-bottom: 0;
+    }
+    
+    .searchOption__blk hr {
+        margin-top: 12px;
+    }
+
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+    .container.lg {
+        width: 100%;
+    }
+
+}
